@@ -51,7 +51,6 @@
         // fetching from tarballs, file system paths, and version control all result
         // in the same contents hash.
         "main",
-        "imports",
         "build.zig",
         "build.zig.zon",
         "LICENSE",
