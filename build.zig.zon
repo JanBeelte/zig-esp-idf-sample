@@ -8,6 +8,13 @@
     // Once all dependencies are fetched, `zig build` no longer requires
     // internet connectivity.
     .dependencies = .{
+        .zig_idf = .{
+            // To use the following path check out the zig-idf library repo
+            // next to the sample, e.g.:
+            // ~/projects/zig-esp-idf-sample
+            // ~/projects/zig-idf
+            .path = "../zig-idf",
+        }
         // See `zig fetch --save <url>` for a command-line interface for adding dependencies.
         //.example = .{
         //    // When updating this field to a new URL, be sure to delete the corresponding

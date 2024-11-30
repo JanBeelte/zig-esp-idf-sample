@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "IDF Sample",
+			"path": "."
+		},
+		{
+			"name": "IDF Base Library",
+			"path": "../zig-idf"
+		}
+	],
+	"settings": {}
+}

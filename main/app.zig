@@ -1,6 +1,6 @@
 const std = @import("std");
 const builtin = @import("builtin");
-const idf = @import("esp_idf");
+const idf = @import("zig_idf");
 
 export fn app_main() callconv(.C) void {
     // This allocator is safe to use as the backing allocator w/ arena allocator
