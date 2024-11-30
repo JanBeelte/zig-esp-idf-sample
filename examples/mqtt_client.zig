@@ -1,5 +1,5 @@
 const std = @import("std");
-const idf = @import("esp_idf");
+const idf = @import("zig_idf");
 
 export fn esp_mqtt_event_handle_cb(event: idf.esp_mqtt_event_handle_t) void {
     const client = event.*.client;
