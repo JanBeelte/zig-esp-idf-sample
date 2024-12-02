@@ -13,7 +13,7 @@
             // next to the sample, e.g.:
             // ~/projects/zig-esp-idf-sample
             // ~/projects/zig-idf
-            .path = "../zig-idf",
+            // .path = "../../zig-idf",
         }
         // See `zig fetch --save <url>` for a command-line interface for adding dependencies.
         //.example = .{
