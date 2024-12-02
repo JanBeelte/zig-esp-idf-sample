@@ -5,6 +5,12 @@
 
 ## STATUS: Experimental
 
+## How to build
+```
+cd blink
+idf.py build
+```
+
 ## Description
 
 This project aims to integrate Zig language and toolchain with the [Espressif IoT Development Framework](https://github.com/espressif/esp-idf) for enhanced development capabilities on ESP32 and its variants.
